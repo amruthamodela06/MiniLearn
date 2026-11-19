@@ -1,0 +1,35 @@
+body {
+  background-color: #fdf6f0;
+  color: #4b4b4b;
+}
+
+a, a:visited {
+  color: #7b8df1;
+}
+
+#body {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.menu {
+  background-color: #fce4ec;
+}
+
+.menu .current {
+  background-color: #b3e5fc;
+}
+
+nav#TableOfContents {
+  background-color: #fff3e0;
+}
+
+code {
+  background-color: #f0f4c3;
+  color: #37474f;
+}
+
+pre {
+  background-color: #ede7f6;
+  border-left: 4px solid #9575cd;
+}

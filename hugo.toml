@@ -1,0 +1,16 @@
+baseURL = "https://minilearn.netlify.app/"
+languageCode = "en-us"
+title = "MiniLearn"
+theme = "hugo-theme-learn"
+
+[params]
+  author = "Modela Jyothi Sai Amrutha"
+  description = "A mini learning site with notes on DSA, Python, C, C++, Java, and Go."
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  themeVariant = "blue"
+  custom_css = ["css/pastel.css"]
+
+[outputs]
+  home = ["HTML", "RSS"]
