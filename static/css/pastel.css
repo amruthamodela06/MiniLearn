@@ -1,35 +1,202 @@
+/* MiniLearn Modern Pastel Theme System */
+:root {
+  --ml-bg-cream: #fdf8f5;
+  --ml-surface: #ffffff;
+  --ml-text: #2d3142;
+  --ml-text-muted: #646a82;
+  --ml-border: #eadce8;
+  --ml-primary: #6c63ff;
+  --ml-primary-soft: #ede9fe;
+  --ml-rose: #fce4ec;
+  --ml-rose-accent: #e91e63;
+  --ml-mint: #e0f7fa;
+  --ml-mint-accent: #00897b;
+  --ml-lavender: #ede7f6;
+  --ml-lavender-accent: #673ab7;
+  --ml-peach: #fff3e0;
+  --ml-peach-accent: #f57c00;
+  --ml-lemon: #f9fbe7;
+  --ml-shadow: 0 6px 20px rgba(108, 99, 255, 0.08);
+  --ml-radius: 12px;
+}
+
 body {
-  background-color: #fdf6f0;
-  color: #4b4b4b;
+  background-color: var(--ml-bg-cream);
+  color: var(--ml-text);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.7;
 }
 
 a, a:visited {
-  color: #7b8df1;
+  color: var(--ml-primary);
+  transition: color 0.18s ease;
+}
+
+a:hover {
+  color: #4f46e5;
 }
 
 #body {
-  background-color: #ffffff;
-  border-radius: 10px;
+  background-color: var(--ml-surface);
+  border-radius: var(--ml-radius);
+  box-shadow: var(--ml-shadow);
+  margin: 14px;
+  padding-bottom: 36px;
+}
+
+/* Sidebar Navigation */
+#sidebar {
+  background: linear-gradient(180deg, #fce4ec 0%, #f3e5f5 100%);
+  border-right: 1px solid var(--ml-border);
+}
+
+#sidebar #header-wrapper {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--ml-border);
+}
+
+#sidebar ul.topics > li.parent,
+#sidebar ul.topics > li.active {
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 8px;
 }
 
 .menu {
-  background-color: #fce4ec;
+  background-color: var(--ml-rose);
 }
 
 .menu .current {
   background-color: #b3e5fc;
+  font-weight: 600;
 }
 
 nav#TableOfContents {
-  background-color: #fff3e0;
+  background-color: var(--ml-peach);
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid #ffe0b2;
 }
 
+/* Inline & Block Code */
 code {
-  background-color: #f0f4c3;
-  color: #37474f;
+  background-color: var(--ml-primary-soft);
+  color: #4338ca;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-size: 0.9em;
 }
 
 pre {
-  background-color: #ede7f6;
-  border-left: 4px solid #9575cd;
+  background-color: #1e1e2e !important;
+  color: #f8f8f2 !important;
+  border-left: 4px solid var(--ml-primary);
+  border-radius: 10px;
+  padding: 16px !important;
+  position: relative;
+  overflow-x: auto;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+pre code {
+  background: transparent !important;
+  color: inherit !important;
+  padding: 0;
+}
+
+/* Course Grid & Cards */
+.ml-course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  margin: 22px 0;
+}
+
+.ml-course-card {
+  background: var(--ml-surface);
+  border: 1px solid var(--ml-border);
+  border-radius: var(--ml-radius);
+  padding: 20px;
+  box-shadow: var(--ml-shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ml-course-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 26px rgba(108, 99, 255, 0.14);
+}
+
+.ml-course-card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.ml-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.ml-badge-time {
+  background: var(--ml-lavender);
+  color: var(--ml-lavender-accent);
+}
+
+.ml-badge-space {
+  background: var(--ml-mint);
+  color: var(--ml-mint-accent);
+}
+
+.ml-badge-level {
+  background: var(--ml-peach);
+  color: var(--ml-peach-accent);
+}
+
+/* Callout Boxes */
+.ml-callout {
+  padding: 14px 18px;
+  border-radius: 10px;
+  margin: 18px 0;
+  border-left: 4px solid var(--ml-primary);
+  background: var(--ml-primary-soft);
+}
+
+.ml-callout.tip {
+  background: #e8f5e9;
+  border-left-color: #2e7d32;
+}
+
+.ml-callout.warning {
+  background: var(--ml-peach);
+  border-left-color: var(--ml-peach-accent);
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 18px 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--ml-border);
+}
+
+th {
+  background-color: var(--ml-lavender);
+  color: var(--ml-text);
+  font-weight: 700;
+  text-align: left;
+  padding: 11px 14px;
+}
+
+td {
+  padding: 10px 14px;
+  border-top: 1px solid var(--ml-border);
 }
