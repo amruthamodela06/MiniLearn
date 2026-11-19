@@ -1,17 +1,191 @@
-/* Default light mode */
+/* MiniLearn Interactive Components & Dark Mode System */
 body {
-  background-color: #fff;
-  color: #000;
+  transition: background-color 0.22s ease, color 0.22s ease;
 }
 
-/* 🌙 Dark mode */
+/* Top Reading Progress Bar */
+#ml-reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #6c63ff, #ec4899, #10b981);
+  width: 0%;
+  z-index: 10000;
+  transition: width 0.1s ease-out;
+}
+
+/* Lesson Action Toolbar (Reading Time + Completion Button + Theme Toggle) */
+.ml-lesson-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: rgba(108, 99, 255, 0.06);
+  border: 1px solid rgba(108, 99, 255, 0.18);
+}
+
+.ml-meta-pills {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+
+.ml-complete-btn {
+  background: #6c63ff;
+  color: #ffffff;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.18s ease, transform 0.12s ease;
+}
+
+.ml-complete-btn:hover {
+  background: #574feb;
+}
+
+.ml-complete-btn.completed {
+  background: #10b981;
+}
+
+/* Code Copy Button */
+.ml-copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.14);
+  color: #e2e8f0;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 6px;
+  padding: 3px 9px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.ml-copy-btn:hover {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+/* Interactive Quiz Card */
+.ml-quiz-box {
+  background: #f8f7ff;
+  border: 1px solid #d8d4f8;
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin: 22px 0;
+}
+
+.ml-quiz-question {
+  font-weight: 700;
+  font-size: 1.02rem;
+  margin-bottom: 12px;
+}
+
+.ml-quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ml-quiz-option {
+  text-align: left;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  cursor: pointer;
+  font-size: 0.92rem;
+  transition: all 0.15s ease;
+}
+
+.ml-quiz-option:hover {
+  border-color: #6c63ff;
+  background: #ede9fe;
+}
+
+.ml-quiz-option.correct {
+  background: #d1fae5;
+  border-color: #10b981;
+  color: #065f46;
+  font-weight: 600;
+}
+
+.ml-quiz-option.wrong {
+  background: #fee2e2;
+  border-color: #ef4444;
+  color: #991b1b;
+}
+
+.ml-quiz-feedback {
+  margin-top: 10px;
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+/* Progress Dashboard Banner */
+.ml-progress-banner {
+  background: linear-gradient(135deg, #ede9fe 0%, #fce4ec 100%);
+  border: 1px solid #e2d4f0;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 18px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.ml-progress-track {
+  flex: 1 1 240px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.ml-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #6c63ff, #10b981);
+  width: 0%;
+  transition: width 0.35s ease;
+}
+
+/* Dark Toggle Floating Button */
+#dark-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 9999;
+  background: #2d3142;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 7px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
+
+/* 🌙 Dark Mode Overrides */
 body.dark-mode {
-  background-color: #121212 !important;
-  color: #e0e0e0 !important;
+  background-color: #0f172a !important;
+  color: #e2e8f0 !important;
 }
 
 body.dark-mode a {
-  color: #bb86fc !important;
+  color: #a5b4fc !important;
 }
 
 body.dark-mode h1,
@@ -20,47 +194,46 @@ body.dark-mode h3,
 body.dark-mode h4,
 body.dark-mode h5,
 body.dark-mode h6 {
-  color: #ffffff !important;
+  color: #f8fafc !important;
 }
 
-body.dark-mode pre,
-body.dark-mode code {
-  background-color: #1e1e1e !important;
-  color: #f1f1f1 !important;
-}
-
+body.dark-mode #body,
 body.dark-mode .padding,
 body.dark-mode .highlightable,
-body.dark-mode #sidebar,
 body.dark-mode #body-inner {
-  background-color: #121212 !important;
-  color: #e0e0e0 !important;
+  background-color: #1e293b !important;
+  color: #e2e8f0 !important;
 }
 
-/* Sidebar and navbar */
 body.dark-mode #sidebar,
 body.dark-mode #top-bar,
-body.dark-mode #header {
-  background-color: #1a1a1a !important;
-  border-color: #333 !important;
+body.dark-mode #header,
+body.dark-mode #sidebar #header-wrapper {
+  background: #0f172a !important;
+  border-color: #334155 !important;
 }
 
-body.dark-mode .dd-item.active > a {
-  background-color: #2c2c2c !important;
-  color: #ffffff !important;
+body.dark-mode .ml-course-card,
+body.dark-mode .ml-quiz-box,
+body.dark-mode .ml-callout {
+  background-color: #0f172a !important;
+  border-color: #334155 !important;
+  color: #e2e8f0 !important;
 }
 
-#dark-toggle {
-  position: fixed; /* keep it fixed on screen */
-  top: 1rem;
-  right: 1rem;
-  z-index: 9999; /* make sure it's above all other content */
-  background: #333;
-  color: #fff;
-  border: none;
-  padding: 6px 12px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1.1rem;
+body.dark-mode .ml-quiz-option {
+  background-color: #1e293b !important;
+  border-color: #475569 !important;
+  color: #f1f5f9 !important;
 }
 
+body.dark-mode table,
+body.dark-mode th,
+body.dark-mode td {
+  border-color: #334155 !important;
+}
+
+body.dark-mode th {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+}
