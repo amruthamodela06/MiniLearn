@@ -1,16 +1,54 @@
 baseURL = "https://minilearn.netlify.app/"
 languageCode = "en-us"
-title = "MiniLearn"
+title = "MiniLearn — Interactive CS & Programming Micro-Learning"
 theme = "hugo-theme-learn"
+enableGitInfo = false
 
 [params]
   author = "Modela Jyothi Sai Amrutha"
-  description = "A mini learning site with notes on DSA, Python, C, C++, Java, and Go."
+  description = "A pastel-themed interactive micro-learning platform with structured notes, complexity breakdowns, quizzes, and cheat sheets for DSA, Python, C, C++, Java, and Go."
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
+  disableSearch = false
+  disableMermaid = false
   themeVariant = "blue"
-  custom_css = ["css/pastel.css"]
+  custom_css = ["css/pastel.css", "css/custom.css"]
+  editURL = "https://github.com/amruthamodela06/MiniLearn/edit/main/content/"
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+    style = "dracula"
+    tabWidth = 4
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.shortcuts]]
+  name = "<i class='fas fa-bolt'></i> Practice Quiz Arena"
+  url = "/quiz/"
+  weight = 10
+
+[[menu.shortcuts]]
+  name = "<i class='fas fa-layer-group'></i> Quick Cheat Sheets"
+  url = "/cheatsheets/"
+  weight = 20
+
+[[menu.shortcuts]]
+  name = "<i class='fas fa-compass'></i> Interview Top-75 Roadmap"
+  url = "/interview-prep/"
+  weight = 30
+
+[[menu.shortcuts]]
+  name = "<i class='fab fa-github'></i> GitHub Repository"
+  url = "https://github.com/amruthamodela06/MiniLearn"
+  weight = 40
