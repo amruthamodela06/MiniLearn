@@ -1,0 +1,13 @@
+{{ $question := .Get "question" }}
+{{ $options := split (.Get "options") "|" }}
+{{ $answer := .Get "answer" | default "0" }}
+{{ $explanation := .Get "explanation" | default "" }}
+<div class="ml-quiz-box" data-answer="{{ $answer }}" data-explanation="{{ $explanation }}">
+  <div class="ml-quiz-question">🧠 Quick Check: {{ $question }}</div>
+  <div class="ml-quiz-options">
+    {{ range $idx, $opt := $options }}
+      <button type="button" class="ml-quiz-option" data-index="{{ $idx }}">{{ $opt }}</button>
+    {{ end }}
+  </div>
+  <div class="ml-quiz-feedback"></div>
+</div>

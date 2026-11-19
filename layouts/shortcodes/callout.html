@@ -1,0 +1,8 @@
+{{ $type := .Get "type" | default "info" }}
+{{ $title := .Get "title" | default "Key Note" }}
+<div class="ml-callout {{ $type }}">
+  <strong>💡 {{ $title }}</strong>
+  <div style="margin-top: 6px;">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

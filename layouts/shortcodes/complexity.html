@@ -1,0 +1,11 @@
+<div class="ml-meta-pills" style="margin: 12px 0;">
+  {{ with .Get "time" }}
+    <span class="ml-badge ml-badge-time">⏱️ Time Complexity: <strong>{{ . }}</strong></span>
+  {{ end }}
+  {{ with .Get "space" }}
+    <span class="ml-badge ml-badge-space">💾 Space Complexity: <strong>{{ . }}</strong></span>
+  {{ end }}
+  {{ with .Get "level" }}
+    <span class="ml-badge ml-badge-level">🎯 Difficulty: <strong>{{ . }}</strong></span>
+  {{ end }}
+</div>
