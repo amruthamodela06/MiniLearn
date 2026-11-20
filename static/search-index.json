@@ -1,0 +1,1652 @@
+[
+  {
+    "url": "/",
+    "track": "home",
+    "title": "Welcome to MiniLearn",
+    "weight": 0,
+    "word_count": 471,
+    "reading_time_min": 3,
+    "snippet": "\ud83c\udf38 Welcome to MiniLearn ! Learn faster, smarter, and simpler. Choose your track, track your progress, and master computer science fundamentals \ud83d\ude80 <div class=\"ml progress banner\" <div <strong",
+    "file_path": "_index.md"
+  },
+  {
+    "url": "/c/",
+    "track": "c",
+    "title": "C",
+    "weight": 3,
+    "word_count": 151,
+    "reading_time_min": 1,
+    "snippet": "\ud83d\udd27 C Programming Language Track Understand how software interacts directly with hardware and memory through the C Programming Language . \ud83d\uddfa\ufe0f Curriculum Modules 1. C Basics (/c/basics/) :",
+    "file_path": "c/_index.md"
+  },
+  {
+    "url": "/c/basics/",
+    "track": "c",
+    "title": "C Basics",
+    "weight": 1,
+    "word_count": 64,
+    "reading_time_min": 1,
+    "snippet": "\ud83d\udd27 C Programming Basics Master C compilation, fixed width data types ( <stdint.h ), formatted printf / scanf streams, bitwise & arithmetic operators, and structured control flow: 1.",
+    "file_path": "c/basics/_index.md"
+  },
+  {
+    "url": "/c/basics/control-structures-if-switch-loops/",
+    "track": "c",
+    "title": "Control Structures (if, switch, loops)",
+    "weight": 4,
+    "word_count": 88,
+    "reading_time_min": 1,
+    "snippet": "if else , switch case , for , while , and do while In switch(expr) , expr must be an integer or enum type , and each case",
+    "file_path": "c/basics/control-structures-if-switch-loops.md"
+  },
+  {
+    "url": "/c/basics/input-output-scanf-printf/",
+    "track": "c",
+    "title": "Input / Output (scanf, printf)",
+    "weight": 2,
+    "word_count": 122,
+    "reading_time_min": 1,
+    "snippet": "Formatted Console I/O & Safe String Reading ( fgets ) printf formats output to stdout , while scanf parses formatted tokens from stdin into memory addresses ( &var",
+    "file_path": "c/basics/input-output-scanf-printf.md"
+  },
+  {
+    "url": "/c/basics/operators/",
+    "track": "c",
+    "title": "Operators",
+    "weight": 3,
+    "word_count": 119,
+    "reading_time_min": 1,
+    "snippet": "Arithmetic, Relational, Logical, and Bitwise Operators in C Bitwise Operators : & (AND), | (OR), ^ (XOR), ~ (NOT), << (left shift), (right shift). Pre vs Post Increment",
+    "file_path": "c/basics/operators.md"
+  },
+  {
+    "url": "/c/basics/syntax-datatypes-keywords/",
+    "track": "c",
+    "title": "Syntax, Datatypes, Keywords",
+    "weight": 1,
+    "word_count": 186,
+    "reading_time_min": 2,
+    "snippet": "C Compilation Pipeline & Primitive Data Types A C source file ( .c ) passes through four stages: Preprocessing ( include , define ) Compilation ( .s assembly)",
+    "file_path": "c/basics/syntax-datatypes-keywords.md"
+  },
+  {
+    "url": "/c/data-structures/",
+    "track": "c",
+    "title": "Data Structures",
+    "weight": 4,
+    "word_count": 53,
+    "reading_time_min": 1,
+    "snippet": "\ud83c\udfd7\ufe0f Data Structures in C Build foundational data structures from scratch in C using contiguous arrays, NUL terminated strings, custom struct / union layouts, and heap allocated pointers:",
+    "file_path": "c/data-structures/_index.md"
+  },
+  {
+    "url": "/c/data-structures/arrays-strings/",
+    "track": "c",
+    "title": "Arrays, Strings",
+    "weight": 1,
+    "word_count": 76,
+    "reading_time_min": 1,
+    "snippet": "Contiguous Arrays & NUL Terminated C Strings ( '\\0' ) In C, a string is a byte array terminated by a zero byte ( '\\0' , ASCII 0",
+    "file_path": "c/data-structures/arrays-strings.md"
+  },
+  {
+    "url": "/c/data-structures/linked-lists-stacks-queues/",
+    "track": "c",
+    "title": "Linked Lists, Stacks, Queues",
+    "weight": 3,
+    "word_count": 76,
+    "reading_time_min": 1,
+    "snippet": "Self Referential struct Node Linked List & Stack in C c include <stdio.h include <stdlib.h typedef struct Node { int data; struct Node next; } Node; Node push_front(Node",
+    "file_path": "c/data-structures/linked-lists-stacks-queues.md"
+  },
+  {
+    "url": "/c/data-structures/structures-&-unions/",
+    "track": "c",
+    "title": "Structures & Unions",
+    "weight": 2,
+    "word_count": 97,
+    "reading_time_min": 1,
+    "snippet": "struct Alignment Padding vs union Shared Memory struct : Allocates separate memory for every field; total sizeof(struct) is the sum of members plus alignment padding . union :",
+    "file_path": "c/data-structures/structures-&-unions.md"
+  },
+  {
+    "url": "/c/file-handling/",
+    "track": "c",
+    "title": "File Handling",
+    "weight": 6,
+    "word_count": 50,
+    "reading_time_min": 1,
+    "snippet": "\ud83d\udcc1 File Handling in C Persist text and binary data using <stdio.h buffered FILE streams, file modes ( \"r\" , \"w\" , \"a\" , \"rb\" , \"wb\" ),",
+    "file_path": "c/file-handling/_index.md"
+  },
+  {
+    "url": "/c/file-handling/fopen-fclose-fread-fwrite/",
+    "track": "c",
+    "title": "fopen, fclose, fread, fwrite",
+    "weight": 1,
+    "word_count": 182,
+    "reading_time_min": 2,
+    "snippet": "Text vs Binary File Streams in <stdio.h | Function | Signature | Use Case | | | | | | fopen | FILE fopen(const char path, const char",
+    "file_path": "c/file-handling/fopen-fclose-fread-fwrite.md"
+  },
+  {
+    "url": "/c/functions/",
+    "track": "c",
+    "title": "Functions",
+    "weight": 2,
+    "word_count": 35,
+    "reading_time_min": 1,
+    "snippet": "\ud83e\udde9 Functions in C Understand C function prototypes, header declarations, stack frames, main entry point signatures, and recursive execution: 1. Declaration & Definition (/c/functions/declaration definition/) 2. main and",
+    "file_path": "c/functions/_index.md"
+  },
+  {
+    "url": "/c/functions/declaration-definition/",
+    "track": "c",
+    "title": "Declaration & Definition",
+    "weight": 1,
+    "word_count": 84,
+    "reading_time_min": 1,
+    "snippet": "Function Prototypes vs Definitions & Pass by Pointer C passes all arguments by value . To mutate a caller's variable in place, pass its memory address ( int",
+    "file_path": "c/functions/declaration-definition.md"
+  },
+  {
+    "url": "/c/functions/main-and-void/",
+    "track": "c",
+    "title": "main and void",
+    "weight": 2,
+    "word_count": 101,
+    "reading_time_min": 1,
+    "snippet": "Standard main Signatures & the void Keyword In ISO C, main must return int ( 0 / EXIT_SUCCESS on success, non zero on error). 1. int main(void) :",
+    "file_path": "c/functions/main-and-void.md"
+  },
+  {
+    "url": "/c/functions/recursion/",
+    "track": "c",
+    "title": "Recursion",
+    "weight": 3,
+    "word_count": 71,
+    "reading_time_min": 1,
+    "snippet": "Recursive Call Frames & Tail Recursion in C Modern C compilers ( gcc O2 , clang O2 ) can optimize tail recursive functions into an iterative jump without",
+    "file_path": "c/functions/recursion.md"
+  },
+  {
+    "url": "/c/memory-management/",
+    "track": "c",
+    "title": "Memory Management",
+    "weight": 5,
+    "word_count": 34,
+    "reading_time_min": 1,
+    "snippet": "\ud83e\udde0 Dynamic Memory Management in C Master virtual address space layout (Text, Data, BSS, Heap, Stack) and <stdlib.h heap allocation functions: 1. malloc , calloc , realloc ,",
+    "file_path": "c/memory-management/_index.md"
+  },
+  {
+    "url": "/c/memory-management/malloc-calloc-realloc-free/",
+    "track": "c",
+    "title": "malloc, calloc, realloc, free",
+    "weight": 1,
+    "word_count": 178,
+    "reading_time_min": 1,
+    "snippet": "Dynamic Heap Allocation in <stdlib.h | Function | Signature | Zero Initialized? | Purpose | | | | | | | malloc | void malloc(size_t size) | No",
+    "file_path": "c/memory-management/malloc-calloc-realloc-free.md"
+  },
+  {
+    "url": "/c/pointers/",
+    "track": "c",
+    "title": "Pointers",
+    "weight": 3,
+    "word_count": 38,
+    "reading_time_min": 1,
+    "snippet": "\ud83c\udfaf Pointers in C Pointers are the superpower of C, providing direct memory addressing, zero copy array traversal, and callback polymorphism: 1. Pointer Arithmetic (/c/pointers/pointer arithmetic/) 2. Arrays",
+    "file_path": "c/pointers/_index.md"
+  },
+  {
+    "url": "/c/pointers/arrays-&-pointers/",
+    "track": "c",
+    "title": "Arrays & Pointers",
+    "weight": 2,
+    "word_count": 106,
+    "reading_time_min": 1,
+    "snippet": "Array to Pointer Decay & sizeof Difference In most expressions (including function arguments), an array name arr decays to a pointer to its first element ( &arr 0",
+    "file_path": "c/pointers/arrays-&-pointers.md"
+  },
+  {
+    "url": "/c/pointers/function-pointers/",
+    "track": "c",
+    "title": "Function Pointers",
+    "weight": 3,
+    "word_count": 115,
+    "reading_time_min": 1,
+    "snippet": "Function Pointers, Callbacks & qsort() A Function Pointer stores the code segment address of a compiled function ( int ( op)(int, int) ), enabling callbacks, dispatch tables, and",
+    "file_path": "c/pointers/function-pointers.md"
+  },
+  {
+    "url": "/c/pointers/pointer-arithmetic/",
+    "track": "c",
+    "title": "Pointer Arithmetic",
+    "weight": 1,
+    "word_count": 88,
+    "reading_time_min": 1,
+    "snippet": "Scaled Address Arithmetic ( ptr + k ) Adding an integer k to a typed pointer T ptr advances the raw memory address by k sizeof(T) bytes !",
+    "file_path": "c/pointers/pointer-arithmetic.md"
+  },
+  {
+    "url": "/cheatsheets/",
+    "track": "cheatsheets",
+    "title": "Quick Cheat Sheets",
+    "weight": 7,
+    "word_count": 51,
+    "reading_time_min": 1,
+    "snippet": "\u26a1 Quick Revision Cheat Sheets Last minute revision tables and syntax summaries for coding interviews and competitive programming: 1. Big O Time & Space Complexity Master Table (/cheatsheets/big",
+    "file_path": "cheatsheets/_index.md"
+  },
+  {
+    "url": "/cheatsheets/big-o-complexity/",
+    "track": "cheatsheets",
+    "title": "Big-O Complexity Master Table",
+    "weight": 1,
+    "word_count": 340,
+    "reading_time_min": 2,
+    "snippet": "Data Structure Operations Complexity | Data Structure | Access | Search | Insertion | Deletion | Space (Worst) | | | | | | | | | Dynamic",
+    "file_path": "cheatsheets/big-o-complexity.md"
+  },
+  {
+    "url": "/cheatsheets/cpp-stl-cheatsheet/",
+    "track": "cheatsheets",
+    "title": "C++ STL Cheat Sheet",
+    "weight": 2,
+    "word_count": 116,
+    "reading_time_min": 1,
+    "snippet": "Essential C++ STL Quick Reference cpp include <algorithm include <deque include <map include <numeric include <queue include <set include <unordered_map include <vector void stl_quick_ref() { // 1. Vector",
+    "file_path": "cheatsheets/cpp-stl-cheatsheet.md"
+  },
+  {
+    "url": "/cheatsheets/python-one-liners/",
+    "track": "cheatsheets",
+    "title": "Python Interview Idioms & One-Liners",
+    "weight": 3,
+    "word_count": 130,
+    "reading_time_min": 1,
+    "snippet": "Essential Python Interview Snippets python from bisect import bisect_left, bisect_right from collections import Counter, defaultdict, deque from functools import lru_cache import heapq import math 1. Infinity constants &",
+    "file_path": "cheatsheets/python-one-liners.md"
+  },
+  {
+    "url": "/cpp/",
+    "track": "cpp",
+    "title": "C++",
+    "weight": 4,
+    "word_count": 137,
+    "reading_time_min": 1,
+    "snippet": "\ud83d\udcbb C++ & Standard Template Library (STL) Track Bridge high level abstraction with zero overhead performance using modern C++ (C++17/C++20) and the Standard Template Library (STL) . \ud83d\uddfa\ufe0f",
+    "file_path": "cpp/_index.md"
+  },
+  {
+    "url": "/cpp/advanced-topics/",
+    "track": "cpp",
+    "title": "Advanced Topics",
+    "weight": 4,
+    "word_count": 50,
+    "reading_time_min": 1,
+    "snippet": "\ud83d\ude80 Advanced Modern C++ Write memory safe, generic, high performance C++ using templates, <memory smart pointers, closures, and exception safety guarantees: 1. Templates (/cpp/advanced topics/templates/) 2. Smart Pointers",
+    "file_path": "cpp/advanced-topics/_index.md"
+  },
+  {
+    "url": "/cpp/advanced-topics/exception-handling/",
+    "track": "cpp",
+    "title": "Exception Handling",
+    "weight": 2,
+    "word_count": 101,
+    "reading_time_min": 1,
+    "snippet": "try , catch , throw , noexcept & Stack Unwinding When an exception is thrown in C++, the runtime unwinds the call stack , invoking the destructors of",
+    "file_path": "cpp/advanced-topics/exception-handling.md"
+  },
+  {
+    "url": "/cpp/advanced-topics/lambda-functions/",
+    "track": "cpp",
+    "title": "Lambda Functions",
+    "weight": 4,
+    "word_count": 111,
+    "reading_time_min": 1,
+    "snippet": "C++ Lambda Expressions captures (params) ret { body } Every lambda expression causes the compiler to generate an anonymous closure class with an inline operator() const . :",
+    "file_path": "cpp/advanced-topics/lambda-functions.md"
+  },
+  {
+    "url": "/cpp/advanced-topics/smart-pointers-shared_ptr-unique_ptr/",
+    "track": "cpp",
+    "title": "Smart Pointers (shared_ptr, unique_ptr)",
+    "weight": 3,
+    "word_count": 114,
+    "reading_time_min": 1,
+    "snippet": "Modern <memory Smart Pointers 1. std::unique_ptr<T (Exclusive Ownership) : Move only, zero memory or CPU overhead compared to a raw pointer T . Always create via std::make_unique<T (...)",
+    "file_path": "cpp/advanced-topics/smart-pointers-shared_ptr-unique_ptr.md"
+  },
+  {
+    "url": "/cpp/advanced-topics/templates/",
+    "track": "cpp",
+    "title": "Templates",
+    "weight": 1,
+    "word_count": 101,
+    "reading_time_min": 1,
+    "snippet": "Function Templates, Class Templates & Variadic Templates Templates instruct the C++ compiler to generate type specialized machine code at compile time ( monomorphization ). cpp include <iostream template",
+    "file_path": "cpp/advanced-topics/templates.md"
+  },
+  {
+    "url": "/cpp/everything-in-c/",
+    "track": "cpp",
+    "title": "Everything in C",
+    "weight": 1,
+    "word_count": 44,
+    "reading_time_min": 1,
+    "snippet": "\ud83d\udd17 From C to Modern C++ Understand how C++ extends C with strong type checking, references ( T& ), function overloading, constexpr , namespace , and RAII: 1.",
+    "file_path": "cpp/everything-in-c/_index.md"
+  },
+  {
+    "url": "/cpp/everything-in-c/because-c++-is-a-superset-of-c/",
+    "track": "cpp",
+    "title": "Because C++ is a superset of C",
+    "weight": 1,
+    "word_count": 145,
+    "reading_time_min": 1,
+    "snippet": "Key C++ Enhancements Over C 1. Lvalue References ( T& & const T& ) : Non null aliases to existing objects that avoid pointer dereferencing syntax and copy",
+    "file_path": "cpp/everything-in-c/because-c++-is-a-superset-of-c.md"
+  },
+  {
+    "url": "/cpp/object-oriented-programming/",
+    "track": "cpp",
+    "title": "Object-Oriented Programming",
+    "weight": 2,
+    "word_count": 68,
+    "reading_time_min": 1,
+    "snippet": "\ud83c\udfdb\ufe0f Object Oriented Programming in C++ Master C++ classes, RAII constructors/destructors, the Rule of Three/Five/Zero, encapsulation, inheritance, polymorphism, and virtual method tables ( vtable ): 1. Classes &",
+    "file_path": "cpp/object-oriented-programming/_index.md"
+  },
+  {
+    "url": "/cpp/object-oriented-programming/classes-&-objects/",
+    "track": "cpp",
+    "title": "Classes & Objects",
+    "weight": 1,
+    "word_count": 86,
+    "reading_time_min": 1,
+    "snippet": "C++ class vs struct & const Member Functions In C++, the only difference between struct and class is default access visibility ( public for struct , private for",
+    "file_path": "cpp/object-oriented-programming/classes-&-objects.md"
+  },
+  {
+    "url": "/cpp/object-oriented-programming/constructors-destructors/",
+    "track": "cpp",
+    "title": "Constructors, Destructors",
+    "weight": 2,
+    "word_count": 146,
+    "reading_time_min": 1,
+    "snippet": "RAII (Resource Acquisition Is Initialization) & Member Initializer Lists In C++, an object's Constructor acquires resources (memory, file handles, mutex locks) and its Destructor ( ~ClassName() ) deterministically",
+    "file_path": "cpp/object-oriented-programming/constructors-destructors.md"
+  },
+  {
+    "url": "/cpp/object-oriented-programming/encapsulation-&-abstraction/",
+    "track": "cpp",
+    "title": "Encapsulation & Abstraction",
+    "weight": 3,
+    "word_count": 71,
+    "reading_time_min": 1,
+    "snippet": "Access Specifiers ( private , protected , public ) & Pure Virtual Interfaces private : Accessible only within the class itself (and friend declarations). protected : Accessible within",
+    "file_path": "cpp/object-oriented-programming/encapsulation-&-abstraction.md"
+  },
+  {
+    "url": "/cpp/object-oriented-programming/inheritance/",
+    "track": "cpp",
+    "title": "Inheritance",
+    "weight": 4,
+    "word_count": 101,
+    "reading_time_min": 1,
+    "snippet": "Inheritance Modes, Constructor Ordering & Virtual Destructors When a derived object is constructed, base class constructors run first , followed by member variables in declaration order, and finally",
+    "file_path": "cpp/object-oriented-programming/inheritance.md"
+  },
+  {
+    "url": "/cpp/object-oriented-programming/polymorphism/",
+    "track": "cpp",
+    "title": "Polymorphism",
+    "weight": 5,
+    "word_count": 75,
+    "reading_time_min": 1,
+    "snippet": "Compile Time (Static) vs Runtime (Dynamic) Polymorphism 1. Compile Time Polymorphism : Function overloading, operator overloading ( operator+ , operator< ), templates, and constexpr \u2014 zero runtime indirection",
+    "file_path": "cpp/object-oriented-programming/polymorphism.md"
+  },
+  {
+    "url": "/cpp/object-oriented-programming/virtual-functions/",
+    "track": "cpp",
+    "title": "Virtual Functions",
+    "weight": 6,
+    "word_count": 95,
+    "reading_time_min": 1,
+    "snippet": "How virtual , vtable , vptr , and override Work Under the Hood When a C++ class declares or inherits a virtual function: 1. The compiler generates a",
+    "file_path": "cpp/object-oriented-programming/virtual-functions.md"
+  },
+  {
+    "url": "/cpp/stl-(standard-template-library)/",
+    "track": "cpp",
+    "title": "STL (Standard Template Library)",
+    "weight": 3,
+    "word_count": 63,
+    "reading_time_min": 1,
+    "snippet": "\ud83e\uddf0 C++ Standard Template Library (STL) Master the four pillars of the C++ STL \u2014 Containers , Iterators , Algorithms , and Functors : 1. Vectors, Maps, Sets,",
+    "file_path": "cpp/stl-(standard-template-library)/_index.md"
+  },
+  {
+    "url": "/cpp/stl-(standard-template-library)/algorithms-sort-binary_search/",
+    "track": "cpp",
+    "title": "Algorithms (sort, binary_search)",
+    "weight": 3,
+    "word_count": 103,
+    "reading_time_min": 1,
+    "snippet": "<algorithm Introsort & Binary Search Bounds std::sort uses Introsort (hybrid QuickSort + HeapSort + InsertionSort), guaranteeing worst case O(N log N) time. std::binary_search(begin, end, val) : Returns bool",
+    "file_path": "cpp/stl-(standard-template-library)/algorithms-sort-binary_search.md"
+  },
+  {
+    "url": "/cpp/stl-(standard-template-library)/stack-queue-priority-queue/",
+    "track": "cpp",
+    "title": "Stack, Queue, Priority Queue",
+    "weight": 2,
+    "word_count": 84,
+    "reading_time_min": 1,
+    "snippet": "STL Container Adaptors std::stack<T : LIFO adaptor (defaults to wrapping std::deque<T ). std::queue<T : FIFO adaptor ( push , front , pop in O(1) ). std::priority_queue<T : Binary",
+    "file_path": "cpp/stl-(standard-template-library)/stack-queue-priority-queue.md"
+  },
+  {
+    "url": "/cpp/stl-(standard-template-library)/vectors-maps-sets-pairs/",
+    "track": "cpp",
+    "title": "Vectors, Maps, Sets, Pairs",
+    "weight": 1,
+    "word_count": 142,
+    "reading_time_min": 1,
+    "snippet": "Core STL Sequence & Associative Containers | Container | Underlying Structure | Lookup / Insert | Ordering | | | | | | | std::vector<T | Contiguous dynamic",
+    "file_path": "cpp/stl-(standard-template-library)/vectors-maps-sets-pairs.md"
+  },
+  {
+    "url": "/dsa/",
+    "track": "dsa",
+    "title": "Data Structures & Algorithms",
+    "weight": 1,
+    "word_count": 169,
+    "reading_time_min": 1,
+    "snippet": "\ud83d\udcd8 Data Structures & Algorithms (DSA) Welcome to the MiniLearn DSA Track ! This module covers asymptotic complexity, recursion, linear and non linear data structures, graph algorithms, dynamic",
+    "file_path": "dsa/_index.md"
+  },
+  {
+    "url": "/dsa/basic-concepts/",
+    "track": "dsa",
+    "title": "Basic Concepts",
+    "weight": 1,
+    "word_count": 86,
+    "reading_time_min": 1,
+    "snippet": "\ud83e\udde0 DSA Basic Concepts Before diving into complex data structures, every software engineer must master three foundational pillars: 1. Time & Space Complexity (/dsa/basic concepts/time & space complexity/)",
+    "file_path": "dsa/basic-concepts/_index.md"
+  },
+  {
+    "url": "/dsa/basic-concepts/asymptotic-notations-big-o-big-\u03b8-big-\u03c9/",
+    "track": "dsa",
+    "title": "Asymptotic Notations (Big-O, Big-\u0398, Big-\u03a9)",
+    "weight": 2,
+    "word_count": 291,
+    "reading_time_min": 2,
+    "snippet": "Overview Asymptotic notations describe the limiting behavior of a function f(n) as the input size n approaches infinity, stripping away machine dependent constants and lower order terms. 1.",
+    "file_path": "dsa/basic-concepts/asymptotic-notations-big-o-big-\u03b8-big-\u03c9.md"
+  },
+  {
+    "url": "/dsa/basic-concepts/recursion-&-backtracking/",
+    "track": "dsa",
+    "title": "Recursion & Backtracking",
+    "weight": 3,
+    "word_count": 260,
+    "reading_time_min": 2,
+    "snippet": "1. Recursion Fundamentals Recursion solves a problem by reducing it to smaller instances of the same problem until reaching a terminating base case . Base Case : Condition",
+    "file_path": "dsa/basic-concepts/recursion-&-backtracking.md"
+  },
+  {
+    "url": "/dsa/basic-concepts/time-&-space-complexity/",
+    "track": "dsa",
+    "title": "Time & Space Complexity",
+    "weight": 1,
+    "word_count": 242,
+    "reading_time_min": 2,
+    "snippet": "Overview Time Complexity quantifies the number of elementary operations an algorithm performs as a function of input size N . Space Complexity measures the total memory (auxiliary space",
+    "file_path": "dsa/basic-concepts/time-&-space-complexity.md"
+  },
+  {
+    "url": "/dsa/data-structures/",
+    "track": "dsa",
+    "title": "Data Structures",
+    "weight": 2,
+    "word_count": 297,
+    "reading_time_min": 2,
+    "snippet": "\ud83c\udfd7\ufe0f Core Data Structures & Algorithms Explore detailed lessons, implementation templates, and complexity breakdowns across every essential data structure and algorithmic paradigm: Arrays & Prefix Techniques : Arrays",
+    "file_path": "dsa/data-structures/_index.md"
+  },
+  {
+    "url": "/dsa/data-structures/arrays/",
+    "track": "dsa",
+    "title": "Arrays",
+    "weight": 1,
+    "word_count": 188,
+    "reading_time_min": 2,
+    "snippet": "Contiguous Memory & Cache Locality An Array stores homogeneous elements in contiguous memory cells. Given base address B and element size S , the address of index i",
+    "file_path": "dsa/data-structures/arrays.md"
+  },
+  {
+    "url": "/dsa/data-structures/bit-manipulation/",
+    "track": "dsa",
+    "title": "Bit Manipulation",
+    "weight": 41,
+    "word_count": 159,
+    "reading_time_min": 1,
+    "snippet": "Essential Bitwise Tricks for Interviews | Operation | Expression | Explanation | | | | | | Check if x is odd | (x & 1) == 1",
+    "file_path": "dsa/data-structures/bit-manipulation.md"
+  },
+  {
+    "url": "/dsa/data-structures/divide-and-conquer/",
+    "track": "dsa",
+    "title": "Divide and Conquer",
+    "weight": 40,
+    "word_count": 124,
+    "reading_time_min": 1,
+    "snippet": "Divide, Conquer, and Combine Paradigm 1. Divide : Partition the problem into independent subproblems of smaller size. 2. Conquer : Recursively solve each subproblem (or solve base cases",
+    "file_path": "dsa/data-structures/divide-and-conquer.md"
+  },
+  {
+    "url": "/dsa/data-structures/dynamic-programming-1d-dp/",
+    "track": "dsa",
+    "title": "Dynamic Programming (1D DP)",
+    "weight": 36,
+    "word_count": 122,
+    "reading_time_min": 1,
+    "snippet": "Classic 1D Dynamic Programming Patterns 1. House Robber (Maximum Non Adjacent Sum in O(N) Time, O(1) Space) Recurrence: dp i = max(dp i 1 , nums i +",
+    "file_path": "dsa/data-structures/dynamic-programming-1d-dp.md"
+  },
+  {
+    "url": "/dsa/data-structures/dynamic-programming-2d-dp/",
+    "track": "dsa",
+    "title": "Dynamic Programming (2D DP)",
+    "weight": 37,
+    "word_count": 158,
+    "reading_time_min": 1,
+    "snippet": "2D Grid & Dual Sequence Dynamic Programming 1. Longest Common Subsequence (LCS) Given strings s1 and s2 , dp i j is the LCS length of s1 :i",
+    "file_path": "dsa/data-structures/dynamic-programming-2d-dp.md"
+  },
+  {
+    "url": "/dsa/data-structures/dynamic-programming-knapsack/",
+    "track": "dsa",
+    "title": "Dynamic Programming (Knapsack)",
+    "weight": 38,
+    "word_count": 119,
+    "reading_time_min": 1,
+    "snippet": "0/1 Knapsack vs Unbounded Knapsack Given N items with weights w i and values v i , maximize total value within capacity W : 1. 0/1 Knapsack (Each",
+    "file_path": "dsa/data-structures/dynamic-programming-knapsack.md"
+  },
+  {
+    "url": "/dsa/data-structures/dynamic-programming-memoization/",
+    "track": "dsa",
+    "title": "Dynamic Programming (Memoization)",
+    "weight": 34,
+    "word_count": 106,
+    "reading_time_min": 1,
+    "snippet": "Top Down DP with Memoization Dynamic Programming (DP) applies when a problem exhibits Optimal Substructure and Overlapping Subproblems . Memoization caches the result of each recursive state dp(state)",
+    "file_path": "dsa/data-structures/dynamic-programming-memoization.md"
+  },
+  {
+    "url": "/dsa/data-structures/dynamic-programming-tabulation/",
+    "track": "dsa",
+    "title": "Dynamic Programming (Tabulation)",
+    "weight": 35,
+    "word_count": 92,
+    "reading_time_min": 1,
+    "snippet": "Bottom Up DP with Tabulation Tabulation fills an iterative DP table from the smallest base cases up to the target state in topological order, completely eliminating recursion call",
+    "file_path": "dsa/data-structures/dynamic-programming-tabulation.md"
+  },
+  {
+    "url": "/dsa/data-structures/graphs-bfs/",
+    "track": "dsa",
+    "title": "Graphs (BFS)",
+    "weight": 29,
+    "word_count": 147,
+    "reading_time_min": 1,
+    "snippet": "Breadth First Search & Shortest Path in Unweighted Graphs Breadth First Search (BFS) explores vertices layer by layer using a FIFO deque . In an unweighted graph, the",
+    "file_path": "dsa/data-structures/graphs-bfs.md"
+  },
+  {
+    "url": "/dsa/data-structures/graphs-dfs/",
+    "track": "dsa",
+    "title": "Graphs (DFS)",
+    "weight": 30,
+    "word_count": 118,
+    "reading_time_min": 1,
+    "snippet": "Depth First Search, Connected Components & Cycle Detection Depth First Search (DFS) plunges as deep as possible along each branch before backtracking. Directed Graph Cycle Detection ( 3",
+    "file_path": "dsa/data-structures/graphs-dfs.md"
+  },
+  {
+    "url": "/dsa/data-structures/graphs-mst-prims-kruskals/",
+    "track": "dsa",
+    "title": "Graphs (MST - Prim",
+    "weight": 33,
+    "word_count": 174,
+    "reading_time_min": 1,
+    "snippet": "Minimum Spanning Tree (MST) Given a connected, undirected, weighted graph, an MST connects all V vertices using V 1 edges with minimum total weight and no cycles. 1.",
+    "file_path": "dsa/data-structures/graphs-mst-prims-kruskals.md"
+  },
+  {
+    "url": "/dsa/data-structures/graphs-topological-sort/",
+    "track": "dsa",
+    "title": "Graphs (Topological Sort)",
+    "weight": 31,
+    "word_count": 135,
+    "reading_time_min": 1,
+    "snippet": "Kahn's Algorithm (In Degree BFS) for DAG Ordering A Topological Ordering of a Directed Acyclic Graph (DAG) places every directed edge u v such that u appears before",
+    "file_path": "dsa/data-structures/graphs-topological-sort.md"
+  },
+  {
+    "url": "/dsa/data-structures/graphs-union-find-dsu/",
+    "track": "dsa",
+    "title": "Graphs (Union-Find / DSU)",
+    "weight": 32,
+    "word_count": 116,
+    "reading_time_min": 1,
+    "snippet": "Disjoint Set Union with Path Compression & Union by Rank Disjoint Set Union (DSU) tracks dynamic connected components under edge additions in near constant inverse Ackermann O(\u03b1(N)) time.",
+    "file_path": "dsa/data-structures/graphs-union-find-dsu.md"
+  },
+  {
+    "url": "/dsa/data-structures/greedy/",
+    "track": "dsa",
+    "title": "Greedy",
+    "weight": 39,
+    "word_count": 116,
+    "reading_time_min": 1,
+    "snippet": "Greedy Choice Property & Interval Scheduling A Greedy Algorithm makes the locally optimal decision at each step. When the problem satisfies the Greedy Choice Property and Optimal Substructure",
+    "file_path": "dsa/data-structures/greedy.md"
+  },
+  {
+    "url": "/dsa/data-structures/hashing-frequency-counting/",
+    "track": "dsa",
+    "title": "Hashing (Frequency Counting)",
+    "weight": 20,
+    "word_count": 126,
+    "reading_time_min": 1,
+    "snippet": "Frequency Maps & Bucket Sort ( Top K Frequent Elements ) Counting occurrences of elements in an array or string enables O(N) grouping, majority element verification, and bucket",
+    "file_path": "dsa/data-structures/hashing-frequency-counting.md"
+  },
+  {
+    "url": "/dsa/data-structures/hashing-hash-maps/",
+    "track": "dsa",
+    "title": "Hashing (Hash Maps)",
+    "weight": 19,
+    "word_count": 157,
+    "reading_time_min": 1,
+    "snippet": "Interview Patterns with Hash Maps Hash Maps ( dict in Python, std::unordered_map in C++, HashMap in Java) reduce O(N^2) search pairs to O(N) single pass lookups. 1. Two",
+    "file_path": "dsa/data-structures/hashing-hash-maps.md"
+  },
+  {
+    "url": "/dsa/data-structures/hashing-hash-tables/",
+    "track": "dsa",
+    "title": "Hashing (Hash Tables)",
+    "weight": 18,
+    "word_count": 201,
+    "reading_time_min": 2,
+    "snippet": "Hash Functions, Load Factor & Collision Resolution A Hash Table maps keys to bucket indices via index = hash(key) % capacity . When two distinct keys map to",
+    "file_path": "dsa/data-structures/hashing-hash-tables.md"
+  },
+  {
+    "url": "/dsa/data-structures/heaps-heap-sort/",
+    "track": "dsa",
+    "title": "Heaps (Heap Sort)",
+    "weight": 28,
+    "word_count": 218,
+    "reading_time_min": 2,
+    "snippet": "In Place Heap Sort Algorithm Heap Sort sorts an array in place in worst case O(N log N) time and O(1) auxiliary memory: 1. Bottom Up Heapify (",
+    "file_path": "dsa/data-structures/heaps-heap-sort.md"
+  },
+  {
+    "url": "/dsa/data-structures/heaps-max-heap/",
+    "track": "dsa",
+    "title": "Heaps (Max Heap)",
+    "weight": 27,
+    "word_count": 147,
+    "reading_time_min": 1,
+    "snippet": "Max Heap & Dual Heap Running Median In a Max Heap , every parent key is greater than or equal to its children ( A parent = A",
+    "file_path": "dsa/data-structures/heaps-max-heap.md"
+  },
+  {
+    "url": "/dsa/data-structures/heaps-min-heap/",
+    "track": "dsa",
+    "title": "Heaps (Min Heap)",
+    "weight": 26,
+    "word_count": 215,
+    "reading_time_min": 2,
+    "snippet": "Complete Binary Tree in a 0 Indexed Array A Binary Min Heap is a complete binary tree where every parent A i satisfies A i <= A 2i",
+    "file_path": "dsa/data-structures/heaps-min-heap.md"
+  },
+  {
+    "url": "/dsa/data-structures/linked-list-circular/",
+    "track": "dsa",
+    "title": "Linked List (Circular)",
+    "weight": 6,
+    "word_count": 152,
+    "reading_time_min": 1,
+    "snippet": "Circular Linked List Design In a Circular Linked List , the tail.next pointer points back to head instead of None . By maintaining a single tail pointer: tail",
+    "file_path": "dsa/data-structures/linked-list-circular.md"
+  },
+  {
+    "url": "/dsa/data-structures/linked-list-doubly/",
+    "track": "dsa",
+    "title": "Linked List (Doubly)",
+    "weight": 5,
+    "word_count": 230,
+    "reading_time_min": 2,
+    "snippet": "Doubly Linked List & O(1) Node Unlinking Each node in a Doubly Linked List (DLL) maintains both prev and next pointers. Unlike a singly linked list, a node",
+    "file_path": "dsa/data-structures/linked-list-doubly.md"
+  },
+  {
+    "url": "/dsa/data-structures/linked-list-fast-&-slow-pointers/",
+    "track": "dsa",
+    "title": "Linked List (Fast & Slow Pointers)",
+    "weight": 7,
+    "word_count": 154,
+    "reading_time_min": 1,
+    "snippet": "Floyd's Tortoise and Hare Algorithm By advancing slow by 1 step ( slow = slow.next ) and fast by 2 steps ( fast = fast.next.next ): 1. Middle",
+    "file_path": "dsa/data-structures/linked-list-fast-&-slow-pointers.md"
+  },
+  {
+    "url": "/dsa/data-structures/linked-list-singly/",
+    "track": "dsa",
+    "title": "Linked List (Singly)",
+    "weight": 4,
+    "word_count": 173,
+    "reading_time_min": 1,
+    "snippet": "Singly Linked List Structure & In Place Reversal A Singly Linked List consists of heap allocated nodes where each node stores val and a next reference to the",
+    "file_path": "dsa/data-structures/linked-list-singly.md"
+  },
+  {
+    "url": "/dsa/data-structures/mathematics-gcd-lcm/",
+    "track": "dsa",
+    "title": "Mathematics (GCD, LCM)",
+    "weight": 42,
+    "word_count": 88,
+    "reading_time_min": 1,
+    "snippet": "Euclidean Algorithm for GCD & LCM The Greatest Common Divisor (GCD) of two integers a and b satisfies gcd(a, b) = gcd(b, a mod b) with gcd(a, 0)",
+    "file_path": "dsa/data-structures/mathematics-gcd-lcm.md"
+  },
+  {
+    "url": "/dsa/data-structures/mathematics-modular-arithmetic/",
+    "track": "dsa",
+    "title": "Mathematics (Modular Arithmetic)",
+    "weight": 44,
+    "word_count": 121,
+    "reading_time_min": 1,
+    "snippet": "Modular Arithmetic & Binary Exponentiation To prevent integer overflow in combinatorics and cryptography, compute results modulo M = 10^9 + 7 : (a + b) mod M =",
+    "file_path": "dsa/data-structures/mathematics-modular-arithmetic.md"
+  },
+  {
+    "url": "/dsa/data-structures/mathematics-prime-numbers-sieve/",
+    "track": "dsa",
+    "title": "Mathematics (Prime Numbers, Sieve)",
+    "weight": 43,
+    "word_count": 119,
+    "reading_time_min": 1,
+    "snippet": "Sieve of Eratosthenes ( O(N log log N) ) Generates all prime numbers up to N by marking multiples of each prime p starting at p p :",
+    "file_path": "dsa/data-structures/mathematics-prime-numbers-sieve.md"
+  },
+  {
+    "url": "/dsa/data-structures/palindromes-anagrams/",
+    "track": "dsa",
+    "title": "Palindromes & Anagrams",
+    "weight": 11,
+    "word_count": 187,
+    "reading_time_min": 2,
+    "snippet": "1. Palindrome Verification & Expansion Around Center A string is a palindrome if it reads the same forward and backward. To find the Longest Palindromic Substring in O(N^2)",
+    "file_path": "dsa/data-structures/palindromes-anagrams.md"
+  },
+  {
+    "url": "/dsa/data-structures/pattern-matching-kmp-z-algorithm/",
+    "track": "dsa",
+    "title": "Pattern Matching (KMP, Z-Algorithm)",
+    "weight": 12,
+    "word_count": 305,
+    "reading_time_min": 2,
+    "snippet": "1. Knuth Morris Pratt (KMP) Algorithm Naive substring search takes O(N M) because it re scans characters after a mismatch. KMP precomputes the Longest Proper Prefix which is",
+    "file_path": "dsa/data-structures/pattern-matching-kmp-z-algorithm.md"
+  },
+  {
+    "url": "/dsa/data-structures/prefix-sum/",
+    "track": "dsa",
+    "title": "Prefix Sum",
+    "weight": 8,
+    "word_count": 219,
+    "reading_time_min": 2,
+    "snippet": "1D Prefix Sum & Range Sum Queries Given an array A 0..N 1 , the prefix sum array P of length N + 1 satisfies P i =",
+    "file_path": "dsa/data-structures/prefix-sum.md"
+  },
+  {
+    "url": "/dsa/data-structures/queues-circular-queue/",
+    "track": "dsa",
+    "title": "Queues (Circular Queue)",
+    "weight": 15,
+    "word_count": 128,
+    "reading_time_min": 1,
+    "snippet": "Fixed Capacity Ring Buffer (Circular Queue) A Circular Queue avoids the O(N) shifting overhead of array based queues by wrapping head and tail indices around a fixed array",
+    "file_path": "dsa/data-structures/queues-circular-queue.md"
+  },
+  {
+    "url": "/dsa/data-structures/queues-deque/",
+    "track": "dsa",
+    "title": "Queues (Deque)",
+    "weight": 16,
+    "word_count": 154,
+    "reading_time_min": 1,
+    "snippet": "Double Ended Queue (Deque) & Sliding Window Maximum A Deque ( collections.deque in Python, std::deque in C++, ArrayDeque in Java) supports O(1) insertion and removal at both the",
+    "file_path": "dsa/data-structures/queues-deque.md"
+  },
+  {
+    "url": "/dsa/data-structures/queues-priority-queue/",
+    "track": "dsa",
+    "title": "Queues (Priority Queue)",
+    "weight": 17,
+    "word_count": 92,
+    "reading_time_min": 1,
+    "snippet": "Priority Queue Abstract Data Type Unlike a FIFO queue, a Priority Queue dequeues elements in order of their priority (minimum key first in a Min Priority Queue, or",
+    "file_path": "dsa/data-structures/queues-priority-queue.md"
+  },
+  {
+    "url": "/dsa/data-structures/sliding-window-&-two-pointers/",
+    "track": "dsa",
+    "title": "Sliding Window & Two Pointers",
+    "weight": 10,
+    "word_count": 235,
+    "reading_time_min": 2,
+    "snippet": "Three Core Two Pointer Patterns 1. Opposite End Pointers ( left = 0 , right = N 1 ) : Used on sorted arrays (2Sum Sorted, 3Sum, Container",
+    "file_path": "dsa/data-structures/sliding-window-&-two-pointers.md"
+  },
+  {
+    "url": "/dsa/data-structures/sliding-window/",
+    "track": "dsa",
+    "title": "Sliding Window",
+    "weight": 9,
+    "word_count": 142,
+    "reading_time_min": 1,
+    "snippet": "Fixed vs Variable Size Sliding Window The Sliding Window technique transforms nested O(N^2) subarray/substring loops into a single O(N) linear pass by maintaining a window left, right that",
+    "file_path": "dsa/data-structures/sliding-window.md"
+  },
+  {
+    "url": "/dsa/data-structures/stacks-infix-to-postfix/",
+    "track": "dsa",
+    "title": "Stacks (Infix to Postfix)",
+    "weight": 13,
+    "word_count": 160,
+    "reading_time_min": 1,
+    "snippet": "LIFO Stack & Shunting Yard Infix to Postfix Conversion A Stack follows Last In, First Out ( LIFO ) ordering ( push , pop , peek in O(1)",
+    "file_path": "dsa/data-structures/stacks-infix-to-postfix.md"
+  },
+  {
+    "url": "/dsa/data-structures/stacks-next-greater-element/",
+    "track": "dsa",
+    "title": "Stacks (Next Greater Element)",
+    "weight": 14,
+    "word_count": 149,
+    "reading_time_min": 1,
+    "snippet": "Monotonic Stack Pattern A Monotonic Decreasing Stack maintains indices of elements in decreasing order of value. Whenever a new element nums i exceeds the top of the stack,",
+    "file_path": "dsa/data-structures/stacks-next-greater-element.md"
+  },
+  {
+    "url": "/dsa/data-structures/strings/",
+    "track": "dsa",
+    "title": "Strings",
+    "weight": 2,
+    "word_count": 212,
+    "reading_time_min": 2,
+    "snippet": "String Representation & Immutability In Python and Java , strings are immutable sequences of Unicode characters. In C , strings are NUL terminated ( '\\0' ) char arrays,",
+    "file_path": "dsa/data-structures/strings.md"
+  },
+  {
+    "url": "/dsa/data-structures/trees-avl/",
+    "track": "dsa",
+    "title": "Trees (AVL)",
+    "weight": 23,
+    "word_count": 191,
+    "reading_time_min": 2,
+    "snippet": "Self Balancing AVL Tree & Rotations An AVL Tree enforces that for every node, the height difference ( Balance Factor ) between its left and right subtrees satisfies:",
+    "file_path": "dsa/data-structures/trees-avl.md"
+  },
+  {
+    "url": "/dsa/data-structures/trees-binary-search-trees/",
+    "track": "dsa",
+    "title": "Trees (Binary Search Trees)",
+    "weight": 22,
+    "word_count": 100,
+    "reading_time_min": 1,
+    "snippet": "BST Invariant & Range Validation In a Binary Search Tree (BST) , every node u satisfies: All keys in u.left are strictly < u.val All keys in u.right",
+    "file_path": "dsa/data-structures/trees-binary-search-trees.md"
+  },
+  {
+    "url": "/dsa/data-structures/trees-binary-trees/",
+    "track": "dsa",
+    "title": "Trees (Binary Trees)",
+    "weight": 21,
+    "word_count": 146,
+    "reading_time_min": 1,
+    "snippet": "Binary Tree Traversals & Lowest Common Ancestor (LCA) A Binary Tree node has at most two children ( left and right ). Preorder ( Root Left Right )",
+    "file_path": "dsa/data-structures/trees-binary-trees.md"
+  },
+  {
+    "url": "/dsa/data-structures/trees-fenwick-tree-bit/",
+    "track": "dsa",
+    "title": "Trees (Fenwick Tree / BIT)",
+    "weight": 25,
+    "word_count": 110,
+    "reading_time_min": 1,
+    "snippet": "Binary Indexed Tree (Fenwick Tree) A Fenwick Tree (BIT) computes prefix sums and point updates in O(log N) time using only N + 1 integers by isolating the",
+    "file_path": "dsa/data-structures/trees-fenwick-tree-bit.md"
+  },
+  {
+    "url": "/dsa/data-structures/trees-segment-tree/",
+    "track": "dsa",
+    "title": "Trees (Segment Tree)",
+    "weight": 24,
+    "word_count": 181,
+    "reading_time_min": 2,
+    "snippet": "Segment Tree for Dynamic Range Queries A Segment Tree divides an array of size N into a binary tree of intervals, supporting Point Updates and Range Queries (sum,",
+    "file_path": "dsa/data-structures/trees-segment-tree.md"
+  },
+  {
+    "url": "/dsa/data-structures/tries-prefix-matching/",
+    "track": "dsa",
+    "title": "Tries (Prefix Matching)",
+    "weight": 3,
+    "word_count": 135,
+    "reading_time_min": 1,
+    "snippet": "Prefix Tree (Trie) for Autocomplete & Dictionary Lookup A Trie stores strings character by character along root to leaf paths, enabling O(L) word lookup and prefix autocomplete independent",
+    "file_path": "dsa/data-structures/tries-prefix-matching.md"
+  },
+  {
+    "url": "/go/",
+    "track": "go",
+    "title": "Go (Golang)",
+    "weight": 6,
+    "word_count": 86,
+    "reading_time_min": 1,
+    "snippet": "\ud83d\udc39 Go (Golang) Programming Track Welcome to the MiniLearn Go (Golang) Track ! Designed at Google for cloud infrastructure, distributed systems, and high concurrency microservices, Go combines static",
+    "file_path": "go/_index.md"
+  },
+  {
+    "url": "/go/basics/",
+    "track": "go",
+    "title": "Go Basics, Packages & Functions",
+    "weight": 1,
+    "word_count": 94,
+    "reading_time_min": 1,
+    "snippet": "Go Syntax, Zero Values, Short Variable Declarations ( := ), and Multiple Return Values In Go, every variable declared without an explicit initializer receives its deterministic zero value",
+    "file_path": "go/basics.md"
+  },
+  {
+    "url": "/go/error-handling-and-defer/",
+    "track": "go",
+    "title": "Idiomatic Error Handling, defer, panic & recover",
+    "weight": 5,
+    "word_count": 115,
+    "reading_time_min": 1,
+    "snippet": "Explicit error Values, errors.Is / errors.As , and defer In Go, errors are ordinary values implementing type error interface { Error() string } . Use fmt.Errorf(\"...: %w\", err)",
+    "file_path": "go/error-handling-and-defer.md"
+  },
+  {
+    "url": "/go/goroutines-and-channels/",
+    "track": "go",
+    "title": "Goroutines, Channels & select Concurrency",
+    "weight": 4,
+    "word_count": 164,
+    "reading_time_min": 1,
+    "snippet": "CSP Concurrency: Goroutines ( go ), Channels ( chan T ), and select \"Do not communicate by sharing memory; instead, share memory by communicating.\" Goroutine ( go fn()",
+    "file_path": "go/goroutines-and-channels.md"
+  },
+  {
+    "url": "/go/slices-and-maps/",
+    "track": "go",
+    "title": "Slices, Arrays & Maps",
+    "weight": 2,
+    "word_count": 89,
+    "reading_time_min": 1,
+    "snippet": "Go Slice Header ( ptr , len , cap ) & Built In map K V Unlike fixed length Go arrays ( 4 int ), a Slice (",
+    "file_path": "go/slices-and-maps.md"
+  },
+  {
+    "url": "/go/structs-and-interfaces/",
+    "track": "go",
+    "title": "Structs, Pointers & Implicit Interfaces",
+    "weight": 3,
+    "word_count": 89,
+    "reading_time_min": 1,
+    "snippet": "Composition via Struct Embedding & Implicit Interfaces Go does not have class inheritance ( extends ) or an implements keyword. Instead: 1. Composition over Inheritance : Embed a",
+    "file_path": "go/structs-and-interfaces.md"
+  },
+  {
+    "url": "/interview-prep/",
+    "track": "interview-prep",
+    "title": "Interview Top-75 Roadmap",
+    "weight": 8,
+    "word_count": 48,
+    "reading_time_min": 1,
+    "snippet": "\ud83e\udded Coding Interview Patterns & Top 75 Roadmap Stop memorizing hundreds of isolated problems \u2014 learn how to map problem constraints and keywords directly to the underlying algorithmic",
+    "file_path": "interview-prep/_index.md"
+  },
+  {
+    "url": "/interview-prep/pattern-recognition-guide/",
+    "track": "interview-prep",
+    "title": "Algorithmic Pattern Recognition Guide",
+    "weight": 1,
+    "word_count": 213,
+    "reading_time_min": 2,
+    "snippet": "Mapping Problem Clues to Optimal Algorithms | Problem Clue / Constraint | Recommended Pattern | Target Complexity | | | | | | Sorted array + pair/triplet sum",
+    "file_path": "interview-prep/pattern-recognition-guide.md"
+  },
+  {
+    "url": "/interview-prep/top-75-roadmap/",
+    "track": "interview-prep",
+    "title": "Curated Top-75 Study Roadmap",
+    "weight": 2,
+    "word_count": 232,
+    "reading_time_min": 2,
+    "snippet": "4 Week Structured DSA & Systems Mastery Plan Week 1: Arrays, Hashing, Two Pointers & Sliding Window Day 1\u20132 : Two Sum, Group Anagrams, Top K Frequent Elements,",
+    "file_path": "interview-prep/top-75-roadmap.md"
+  },
+  {
+    "url": "/java/",
+    "track": "java",
+    "title": "Java",
+    "weight": 5,
+    "word_count": 176,
+    "reading_time_min": 1,
+    "snippet": "\u2615 Java Development Track Build type safe, concurrent, object oriented applications with Java and the Java Collections Framework . \ud83d\uddfa\ufe0f Curriculum Modules 1. Java Basics (/java/basics/) : JVM/JDK",
+    "file_path": "java/_index.md"
+  },
+  {
+    "url": "/java/basics/",
+    "track": "java",
+    "title": "Basics",
+    "weight": 1,
+    "word_count": 48,
+    "reading_time_min": 1,
+    "snippet": "\u2615 Java Basics Learn the Java Virtual Machine (JVM) execution model, primitive vs reference types, operators, modern switch expressions, arrays, and the String Constant Pool: 1. Syntax &",
+    "file_path": "java/basics/_index.md"
+  },
+  {
+    "url": "/java/basics/arrays-strings/",
+    "track": "java",
+    "title": "Arrays, Strings",
+    "weight": 4,
+    "word_count": 95,
+    "reading_time_min": 1,
+    "snippet": "Immutable String , String Pool, and StringBuilder In Java, String objects are immutable . String literals ( \"MiniLearn\" ) are interned in the JVM String Constant Pool .",
+    "file_path": "java/basics/arrays-strings.md"
+  },
+  {
+    "url": "/java/basics/control-flow/",
+    "track": "java",
+    "title": "Control Flow",
+    "weight": 3,
+    "word_count": 93,
+    "reading_time_min": 1,
+    "snippet": "Enhanced for each Loops & Modern Java 14+ switch Expressions Java 14+ introduced arrow switch expressions ( case X ... ) that return values directly and cannot accidentally",
+    "file_path": "java/basics/control-flow.md"
+  },
+  {
+    "url": "/java/basics/syntax-datatypes/",
+    "track": "java",
+    "title": "Syntax, Datatypes",
+    "weight": 1,
+    "word_count": 158,
+    "reading_time_min": 1,
+    "snippet": "Java's 8 Primitive Data Types & Autoboxing Unlike objects on the JVM heap, Java's 8 primitive types are stored directly by value: | Type | Size | Default",
+    "file_path": "java/basics/syntax-datatypes.md"
+  },
+  {
+    "url": "/java/basics/variables-operators/",
+    "track": "java",
+    "title": "Variables, Operators",
+    "weight": 2,
+    "word_count": 95,
+    "reading_time_min": 1,
+    "snippet": "Variable Scopes, final , and Java Operators 1. Local Variables : Declared inside methods; must be explicitly initialized before use. Can use var type inference (Java 10+). 2.",
+    "file_path": "java/basics/variables-operators.md"
+  },
+  {
+    "url": "/java/exception-handling/",
+    "track": "java",
+    "title": "Exception Handling",
+    "weight": 4,
+    "word_count": 39,
+    "reading_time_min": 1,
+    "snippet": "\ud83d\udee1\ufe0f Exception Handling in Java Understand Java's Throwable hierarchy ( Error vs Checked Exception vs Unchecked RuntimeException ) and try with resources : 1. try , catch ,",
+    "file_path": "java/exception-handling/_index.md"
+  },
+  {
+    "url": "/java/exception-handling/try-catch-finally-throw-throws/",
+    "track": "java",
+    "title": "try, catch, finally, throw, throws",
+    "weight": 1,
+    "word_count": 95,
+    "reading_time_min": 1,
+    "snippet": "Throwable Hierarchy & try with resources Checked Exceptions ( IOException , SQLException ) : Subclasses of Exception (excluding RuntimeException ); the compiler requires either catching them or declaring",
+    "file_path": "java/exception-handling/try-catch-finally-throw-throws.md"
+  },
+  {
+    "url": "/java/file-i/o/",
+    "track": "java",
+    "title": "File I/O",
+    "weight": 6,
+    "word_count": 34,
+    "reading_time_min": 1,
+    "snippet": "\ud83d\udcc1 File I/O in Java Read and write files efficiently using java.io buffered streams and modern java.nio.file.Files : 1. File Handling (/java/file i/o/file handling/) 2. Scanner , BufferedReader",
+    "file_path": "java/file-i/o/_index.md"
+  },
+  {
+    "url": "/java/file-i/o/file-handling/",
+    "track": "java",
+    "title": "File Handling",
+    "weight": 1,
+    "word_count": 51,
+    "reading_time_min": 1,
+    "snippet": "Modern java.nio.file.Path and Files API (Java 11+) java import java.io.IOException; import java.nio.charset.StandardCharsets; import java.nio.file.Files; import java.nio.file.Path; import java.util.List; public class NioFilesDemo { public static void main(String args) throws",
+    "file_path": "java/file-i/o/file-handling.md"
+  },
+  {
+    "url": "/java/file-i/o/scanner-bufferedreader-filewriter/",
+    "track": "java",
+    "title": "Scanner, BufferedReader, FileWriter",
+    "weight": 2,
+    "word_count": 105,
+    "reading_time_min": 1,
+    "snippet": "BufferedReader vs Scanner & BufferedWriter Scanner : Convenient regex based token parser ( nextInt() , nextLine() ), but slower due to regex overhead and smaller buffer ( 1024",
+    "file_path": "java/file-i/o/scanner-bufferedreader-filewriter.md"
+  },
+  {
+    "url": "/java/java-8+-features/",
+    "track": "java",
+    "title": "Java 8+ Features",
+    "weight": 7,
+    "word_count": 47,
+    "reading_time_min": 1,
+    "snippet": "\u2728 Java 8+ Modern Features Write declarative, functional Java using @FunctionalInterface , Lambda Expressions, the Stream Pipeline API, and null safe Optional<T : 1. Streams & Lambda Expressions",
+    "file_path": "java/java-8+-features/_index.md"
+  },
+  {
+    "url": "/java/java-8+-features/functional-interfaces/",
+    "track": "java",
+    "title": "Functional Interfaces",
+    "weight": 2,
+    "word_count": 104,
+    "reading_time_min": 1,
+    "snippet": "Core java.util.function Interfaces A Functional Interface has exactly one abstract method (SAM) and can be instantiated via a lambda expression or method reference ( Class::method ): | Interface",
+    "file_path": "java/java-8+-features/functional-interfaces.md"
+  },
+  {
+    "url": "/java/java-8+-features/optional-class/",
+    "track": "java",
+    "title": "Optional Class",
+    "weight": 3,
+    "word_count": 53,
+    "reading_time_min": 1,
+    "snippet": "Null Safe Return Types with Optional<T Optional<T is a container object that either wraps a non null value or is empty ( Optional.empty() ), eliminating NullPointerException guesswork in",
+    "file_path": "java/java-8+-features/optional-class.md"
+  },
+  {
+    "url": "/java/java-8+-features/streams-lambda-expressions/",
+    "track": "java",
+    "title": "Streams, Lambda Expressions",
+    "weight": 1,
+    "word_count": 74,
+    "reading_time_min": 1,
+    "snippet": "Declarative Data Processing with java.util.stream.Stream A Stream Pipeline consists of a Source , zero or more lazy Intermediate Operations ( filter , map , flatMap , sorted ,",
+    "file_path": "java/java-8+-features/streams-lambda-expressions.md"
+  },
+  {
+    "url": "/java/java-collections-framework/",
+    "track": "java",
+    "title": "Java Collections Framework",
+    "weight": 3,
+    "word_count": 64,
+    "reading_time_min": 1,
+    "snippet": "\ud83d\uddc2\ufe0f Java Collections Framework (JCF) Master Java's generic collection interfaces ( List<E , Set<E , Queue<E , Deque<E , Map<K, V ) and their concrete implementations: 1. List,",
+    "file_path": "java/java-collections-framework/_index.md"
+  },
+  {
+    "url": "/java/java-collections-framework/arraylist-hashmap-treemap-hashset/",
+    "track": "java",
+    "title": "ArrayList, HashMap, TreeMap, HashSet",
+    "weight": 2,
+    "word_count": 147,
+    "reading_time_min": 1,
+    "snippet": "Java 8+ HashMap Treeification & TreeMap Navigable Operations In Java 8+, when a HashMap bucket chain exceeds TREEIFY_THRESHOLD = 8 (and table capacity is = 64 ), the",
+    "file_path": "java/java-collections-framework/arraylist-hashmap-treemap-hashset.md"
+  },
+  {
+    "url": "/java/java-collections-framework/comparable-&-comparator/",
+    "track": "java",
+    "title": "Comparable & Comparator",
+    "weight": 4,
+    "word_count": 84,
+    "reading_time_min": 1,
+    "snippet": "Natural Ordering ( Comparable<T ) vs Custom Ordering ( Comparator<T ) Comparable<T ( int compareTo(T other) ) : Implemented inside the domain class itself to define its single",
+    "file_path": "java/java-collections-framework/comparable-&-comparator.md"
+  },
+  {
+    "url": "/java/java-collections-framework/list-set-map/",
+    "track": "java",
+    "title": "List, Set, Map",
+    "weight": 1,
+    "word_count": 107,
+    "reading_time_min": 1,
+    "snippet": "Core JCF Interfaces & Contracts List<E : Ordered sequence allowing duplicate elements and positional index access ( ArrayList , LinkedList ). Set<E : Collection containing no duplicate elements",
+    "file_path": "java/java-collections-framework/list-set-map.md"
+  },
+  {
+    "url": "/java/java-collections-framework/stack-queue-deque/",
+    "track": "java",
+    "title": "Stack, Queue, Deque",
+    "weight": 3,
+    "word_count": 97,
+    "reading_time_min": 1,
+    "snippet": "Why ArrayDeque Replaces Legacy java.util.Stack Legacy java.util.Stack extends Vector , synchronizing every method call with unnecessary lock overhead. Always use Deque<T stack = new ArrayDeque< () for both",
+    "file_path": "java/java-collections-framework/stack-queue-deque.md"
+  },
+  {
+    "url": "/java/multithreading/",
+    "track": "java",
+    "title": "Multithreading",
+    "weight": 5,
+    "word_count": 40,
+    "reading_time_min": 1,
+    "snippet": "\u2699\ufe0f Multithreading & Concurrency in Java Build thread safe concurrent programs using JVM threads, Runnable / Callable , intrinsic locks ( synchronized ), and java.util.concurrent : 1. Thread",
+    "file_path": "java/multithreading/_index.md"
+  },
+  {
+    "url": "/java/multithreading/thread-lifecycle/",
+    "track": "java",
+    "title": "Thread Lifecycle",
+    "weight": 2,
+    "word_count": 84,
+    "reading_time_min": 1,
+    "snippet": "The 6 States in java.lang.Thread.State 1. NEW : Thread object created ( new Thread(...) ), start() not yet called. 2. RUNNABLE : Executing on CPU or ready in",
+    "file_path": "java/multithreading/thread-lifecycle.md"
+  },
+  {
+    "url": "/java/multithreading/threads-runnable-synchronization/",
+    "track": "java",
+    "title": "Threads, Runnable, Synchronization",
+    "weight": 1,
+    "word_count": 66,
+    "reading_time_min": 1,
+    "snippet": "Runnable , synchronized Monitor Locks & AtomicInteger Always prefer implementing Runnable (or Callable<V ) over subclassing Thread , and submit tasks to an ExecutorService thread pool. java import",
+    "file_path": "java/multithreading/threads-runnable-synchronization.md"
+  },
+  {
+    "url": "/java/oop-concepts/",
+    "track": "java",
+    "title": "OOP Concepts",
+    "weight": 2,
+    "word_count": 68,
+    "reading_time_min": 1,
+    "snippet": "\ud83c\udfdb\ufe0f Java Object Oriented Programming (OOP) Master the four pillars of Java OOP \u2014 Encapsulation , Inheritance , Polymorphism , and Abstraction \u2014 along with Java 16+ record",
+    "file_path": "java/oop-concepts/_index.md"
+  },
+  {
+    "url": "/java/oop-concepts/abstraction/",
+    "track": "java",
+    "title": "Abstraction",
+    "weight": 5,
+    "word_count": 63,
+    "reading_time_min": 1,
+    "snippet": "Hiding Implementation Details Behind Abstract Contracts Abstraction separates what an object does (its public method contract) from how it accomplishes it (its internal data structures and algorithms). java",
+    "file_path": "java/oop-concepts/abstraction.md"
+  },
+  {
+    "url": "/java/oop-concepts/classes-objects/",
+    "track": "java",
+    "title": "Classes & Objects",
+    "weight": 1,
+    "word_count": 79,
+    "reading_time_min": 1,
+    "snippet": "Classes, Constructors, equals() / hashCode() , and Java 16+ record In Java, every class implicitly extends java.lang.Object . Java 16+ introduced record classes to declare immutable data carriers",
+    "file_path": "java/oop-concepts/classes-objects.md"
+  },
+  {
+    "url": "/java/oop-concepts/encapsulation/",
+    "track": "java",
+    "title": "Encapsulation",
+    "weight": 2,
+    "word_count": 113,
+    "reading_time_min": 1,
+    "snippet": "Access Visibility Matrix & Defensive Copying | Modifier | Same Class | Same Package | Subclass (Other Pkg) | Everywhere | | | | | | | |",
+    "file_path": "java/oop-concepts/encapsulation.md"
+  },
+  {
+    "url": "/java/oop-concepts/inheritance/",
+    "track": "java",
+    "title": "Inheritance",
+    "weight": 3,
+    "word_count": 96,
+    "reading_time_min": 1,
+    "snippet": "Single Inheritance ( extends ), super , and final Classes Java supports single class inheritance ( class Dog extends Animal ) to avoid the Diamond Problem of stateful",
+    "file_path": "java/oop-concepts/inheritance.md"
+  },
+  {
+    "url": "/java/oop-concepts/interfaces-&-abstract-classes/",
+    "track": "java",
+    "title": "Interfaces & Abstract Classes",
+    "weight": 6,
+    "word_count": 88,
+    "reading_time_min": 1,
+    "snippet": "interface vs abstract class Comparison | Feature | abstract class | interface (Java 8+) | | | | | | Multiple Inheritance | Single ( extends one class)",
+    "file_path": "java/oop-concepts/interfaces-&-abstract-classes.md"
+  },
+  {
+    "url": "/java/oop-concepts/polymorphism/",
+    "track": "java",
+    "title": "Polymorphism",
+    "weight": 4,
+    "word_count": 104,
+    "reading_time_min": 1,
+    "snippet": "Method Overloading vs Method Overriding ( @Override ) In Java, all non static , non final , non private instance methods are polymorphic ( virtual ) by default",
+    "file_path": "java/oop-concepts/polymorphism.md"
+  },
+  {
+    "url": "/python/",
+    "track": "python",
+    "title": "Python",
+    "weight": 2,
+    "word_count": 131,
+    "reading_time_min": 1,
+    "snippet": "\ud83d\udc0d Python Programming Track Master Python from foundational syntax and built in data structures to Object Oriented Programming, functional idioms, data science libraries, and web development. \ud83d\uddfa\ufe0f Curriculum",
+    "file_path": "python/_index.md"
+  },
+  {
+    "url": "/python/advanced-topics/",
+    "track": "python",
+    "title": "Advanced Topics",
+    "weight": 4,
+    "word_count": 59,
+    "reading_time_min": 1,
+    "snippet": "\u26a1 Python Advanced Topics Unlock expressive, memory efficient Python with higher order decorators, lazy generators, comprehensions, lambdas, context managers, and structured exception handling: 1. List Comprehension (/python/advanced topics/list",
+    "file_path": "python/advanced-topics/_index.md"
+  },
+  {
+    "url": "/python/advanced-topics/decorators/",
+    "track": "python",
+    "title": "Decorators",
+    "weight": 4,
+    "word_count": 86,
+    "reading_time_min": 1,
+    "snippet": "Function Decorators & @functools.wraps A Decorator is a callable that takes a function as input, wraps it with cross cutting behavior (logging, timing, caching, authentication, retry logic), and",
+    "file_path": "python/advanced-topics/decorators.md"
+  },
+  {
+    "url": "/python/advanced-topics/exception-handling/",
+    "track": "python",
+    "title": "Exception Handling",
+    "weight": 5,
+    "word_count": 69,
+    "reading_time_min": 1,
+    "snippet": "try , except , else , finally & Custom Exception Hierarchies python class ValidationError(ValueError): \"\"\"Custom domain specific exception.\"\"\" def parse_percentage(raw: str) float: try: val = float(raw) if not",
+    "file_path": "python/advanced-topics/exception-handling.md"
+  },
+  {
+    "url": "/python/advanced-topics/file-handling/",
+    "track": "python",
+    "title": "File Handling",
+    "weight": 6,
+    "word_count": 92,
+    "reading_time_min": 1,
+    "snippet": "Context Managers ( with open(...) ) & pathlib.Path Always open files using a with statement so the file descriptor is deterministically closed on block exit or exception. python",
+    "file_path": "python/advanced-topics/file-handling.md"
+  },
+  {
+    "url": "/python/advanced-topics/iterators-&-generators/",
+    "track": "python",
+    "title": "Iterators & Generators",
+    "weight": 3,
+    "word_count": 117,
+    "reading_time_min": 1,
+    "snippet": "The Iterator Protocol ( __iter__ , __next__ ) & yield Generators A Generator Function uses yield to suspend execution and preserve local state between calls, producing items lazily",
+    "file_path": "python/advanced-topics/iterators-&-generators.md"
+  },
+  {
+    "url": "/python/advanced-topics/lambda-functions/",
+    "track": "python",
+    "title": "Lambda Functions",
+    "weight": 2,
+    "word_count": 111,
+    "reading_time_min": 1,
+    "snippet": "Anonymous lambda Expressions & Higher Order Functions A lambda expression creates an inline, single expression anonymous function: lambda arg1, arg2: expression . It is most effective as a",
+    "file_path": "python/advanced-topics/lambda-functions.md"
+  },
+  {
+    "url": "/python/advanced-topics/list-comprehension/",
+    "track": "python",
+    "title": "List Comprehension",
+    "weight": 1,
+    "word_count": 128,
+    "reading_time_min": 1,
+    "snippet": "List, Set, and Dictionary Comprehensions Comprehensions provide a concise, readable syntax expr for item in iterable if cond that executes via specialized LIST_APPEND CPython bytecode (~30% faster than",
+    "file_path": "python/advanced-topics/list-comprehension.md"
+  },
+  {
+    "url": "/python/basics/",
+    "track": "python",
+    "title": "Basics",
+    "weight": 1,
+    "word_count": 53,
+    "reading_time_min": 1,
+    "snippet": "\ud83d\udc0d Python Basics Learn Python's clean indentation based syntax, dynamic typing model, operators, formatted I/O, control flow, and functions: 1. Syntax, Variables, Datatypes (/python/basics/syntax variables datatypes/) 2. Operators",
+    "file_path": "python/basics/_index.md"
+  },
+  {
+    "url": "/python/basics/conditional-statements/",
+    "track": "python",
+    "title": "Conditional Statements",
+    "weight": 4,
+    "word_count": 114,
+    "reading_time_min": 1,
+    "snippet": "if , elif , else & Structural Pattern Matching ( match / case ) Python uses truthiness evaluation: empty containers ( , {} , \"\" , set() ),",
+    "file_path": "python/basics/conditional-statements.md"
+  },
+  {
+    "url": "/python/basics/functions-recursion/",
+    "track": "python",
+    "title": "Functions & Recursion",
+    "weight": 6,
+    "word_count": 111,
+    "reading_time_min": 1,
+    "snippet": "Positional, Keyword, args , and kwargs Parameters Functions in Python are first class objects : they can be passed as arguments, returned from other functions, and stored in",
+    "file_path": "python/basics/functions-recursion.md"
+  },
+  {
+    "url": "/python/basics/input-output/",
+    "track": "python",
+    "title": "Input / Output",
+    "weight": 3,
+    "word_count": 112,
+    "reading_time_min": 1,
+    "snippet": "Console Input, f strings , and Fast Competitive I/O 1. Standard input() and Type Parsing input() reads a line from stdin as a str (stripping the trailing newline):",
+    "file_path": "python/basics/input-output.md"
+  },
+  {
+    "url": "/python/basics/loops-for-while/",
+    "track": "python",
+    "title": "Loops (for, while)",
+    "weight": 5,
+    "word_count": 125,
+    "reading_time_min": 1,
+    "snippet": "Pythonic Iteration with enumerate , zip , and for else In Python, for loops iterate directly over any Iterable ( list , tuple , dict , set ,",
+    "file_path": "python/basics/loops-for-while.md"
+  },
+  {
+    "url": "/python/basics/operators/",
+    "track": "python",
+    "title": "Operators",
+    "weight": 2,
+    "word_count": 177,
+    "reading_time_min": 1,
+    "snippet": "Python Operator Categories 1. Arithmetic : + , , , / (true float division), // (floor division), % (modulo), (exponentiation). 2. Comparison (Chainable) : 1 < x <",
+    "file_path": "python/basics/operators.md"
+  },
+  {
+    "url": "/python/basics/syntax-variables-datatypes/",
+    "track": "python",
+    "title": "Syntax, Variables, Datatypes",
+    "weight": 1,
+    "word_count": 196,
+    "reading_time_min": 2,
+    "snippet": "Python's Dynamic Object Model In Python, variables are names bound to heap allocated objects , not fixed memory boxes. Types are attached to objects at runtime ( dynamic",
+    "file_path": "python/basics/syntax-variables-datatypes.md"
+  },
+  {
+    "url": "/python/data-structures/",
+    "track": "python",
+    "title": "Data Structures",
+    "weight": 2,
+    "word_count": 53,
+    "reading_time_min": 1,
+    "snippet": "\ud83d\uddc2\ufe0f Python Data Structures Explore Python's built in container types, asymptotic operation costs, collections specialized structures, and vectorized numpy arrays: 1. Lists & Tuples (/python/data structures/lists tuples/) 2.",
+    "file_path": "python/data-structures/_index.md"
+  },
+  {
+    "url": "/python/data-structures/arrays-using-numpy/",
+    "track": "python",
+    "title": "Arrays using numpy",
+    "weight": 4,
+    "word_count": 125,
+    "reading_time_min": 1,
+    "snippet": "Vectorized Numerical Computing with numpy.ndarray Unlike Python lists (which store boxed object pointers), a NumPy ndarray stores unboxed, homogeneous C primitives ( float64 , int32 , uint8 )",
+    "file_path": "python/data-structures/arrays-using-numpy.md"
+  },
+  {
+    "url": "/python/data-structures/lists-tuples/",
+    "track": "python",
+    "title": "Lists & Tuples",
+    "weight": 1,
+    "word_count": 123,
+    "reading_time_min": 1,
+    "snippet": "Mutable list vs Immutable tuple A Python list is an over allocated dynamic array of object references. A tuple is a fixed size, immutable sequence that uses less",
+    "file_path": "python/data-structures/lists-tuples.md"
+  },
+  {
+    "url": "/python/data-structures/sets-dictionaries/",
+    "track": "python",
+    "title": "Sets & Dictionaries",
+    "weight": 2,
+    "word_count": 119,
+    "reading_time_min": 1,
+    "snippet": "Hash Table Backed dict and set Since Python 3.7+, dict preserves insertion order as a language guarantee while delivering O(1) average key lookup, insertion, and deletion. python from",
+    "file_path": "python/data-structures/sets-dictionaries.md"
+  },
+  {
+    "url": "/python/data-structures/stack-queue-using-collections/",
+    "track": "python",
+    "title": "Stack, Queue using collections",
+    "weight": 3,
+    "word_count": 113,
+    "reading_time_min": 1,
+    "snippet": "Why collections.deque Beats list for Queues Calling list.pop(0) shifts all N 1 remaining elements left in memory, costing O(N) per dequeue. collections.deque is implemented as a doubly linked",
+    "file_path": "python/data-structures/stack-queue-using-collections.md"
+  },
+  {
+    "url": "/python/modules-&-libraries/",
+    "track": "python",
+    "title": "Modules & Libraries",
+    "weight": 5,
+    "word_count": 88,
+    "reading_time_min": 1,
+    "snippet": "\ud83d\udce6 Python Modules & Ecosystem Libraries Explore Python's \"Batteries Included\" standard library along with its data science and web engineering ecosystem: 1. Standard Library ( math , datetime",
+    "file_path": "python/modules-&-libraries/_index.md"
+  },
+  {
+    "url": "/python/modules-&-libraries/math-datetime-os-sys-random/",
+    "track": "python",
+    "title": "math, datetime, os, sys, random",
+    "weight": 1,
+    "word_count": 81,
+    "reading_time_min": 1,
+    "snippet": "Essential Python Standard Library Modules python import math import os import random import sys from datetime import datetime, timezone, timedelta 1. math: Number theory & floating point precision",
+    "file_path": "python/modules-&-libraries/math-datetime-os-sys-random.md"
+  },
+  {
+    "url": "/python/modules-&-libraries/pandas-numpy-matplotlib-for-data/",
+    "track": "python",
+    "title": "pandas, numpy, matplotlib (for data)",
+    "weight": 3,
+    "word_count": 85,
+    "reading_time_min": 1,
+    "snippet": "Data Analysis & Visualization Pipeline python import numpy as np import pandas as pd import matplotlib.pyplot as plt 1. Create & Aggregate a Pandas DataFrame df = pd.DataFrame({",
+    "file_path": "python/modules-&-libraries/pandas-numpy-matplotlib-for-data.md"
+  },
+  {
+    "url": "/python/modules-&-libraries/re-regex/",
+    "track": "python",
+    "title": "re (Regex)",
+    "weight": 2,
+    "word_count": 97,
+    "reading_time_min": 1,
+    "snippet": "Pattern Matching & Extraction with re Precompile frequently used regular expressions with re.compile() and always use raw strings ( r\"...\" ) so backslashes are not swallowed by Python",
+    "file_path": "python/modules-&-libraries/re-regex.md"
+  },
+  {
+    "url": "/python/modules-&-libraries/requests-flask-tkinter-for-web-gui/",
+    "track": "python",
+    "title": "requests, flask, tkinter (for web/GUI)",
+    "weight": 4,
+    "word_count": 54,
+    "reading_time_min": 1,
+    "snippet": "HTTP Clients ( requests ) & REST Microservices ( Flask ) python from flask import Flask, jsonify, request app = Flask(__name__) @app.get(\"/api/health\") def health_check(): return jsonify({\"status\": \"ok\", \"service\":",
+    "file_path": "python/modules-&-libraries/requests-flask-tkinter-for-web-gui.md"
+  },
+  {
+    "url": "/python/oop/",
+    "track": "python",
+    "title": "OOP",
+    "weight": 3,
+    "word_count": 47,
+    "reading_time_min": 1,
+    "snippet": "\ud83c\udfdb\ufe0f Object Oriented Programming in Python Master Python's class system, dunder ( __init__ , __repr__ , __eq__ ) methods, @property encapsulation, inheritance, super() , Method Resolution Order (MRO),",
+    "file_path": "python/oop/_index.md"
+  },
+  {
+    "url": "/python/oop/classes-&-objects/",
+    "track": "python",
+    "title": "Classes & Objects",
+    "weight": 1,
+    "word_count": 122,
+    "reading_time_min": 1,
+    "snippet": "Custom Classes, Dunder Methods & @dataclass python from dataclasses import dataclass class Vector2D: __slots__ = (\"x\", \"y\") Eliminates per instance __dict__ memory overhead def __init__(self, x: float, y:",
+    "file_path": "python/oop/classes-&-objects.md"
+  },
+  {
+    "url": "/python/oop/encapsulation/",
+    "track": "python",
+    "title": "Encapsulation",
+    "weight": 2,
+    "word_count": 100,
+    "reading_time_min": 1,
+    "snippet": "Pythonic Encapsulation with @property Descriptors Instead of verbose Java style getBalance() / setBalance() methods, Python uses naming conventions ( _protected and __name_mangled ) paired with @property getters and",
+    "file_path": "python/oop/encapsulation.md"
+  },
+  {
+    "url": "/python/oop/inheritance-polymorphism/",
+    "track": "python",
+    "title": "Inheritance, Polymorphism",
+    "weight": 3,
+    "word_count": 105,
+    "reading_time_min": 1,
+    "snippet": "Inheritance, super() , Abstract Base Classes & Duck Typing Python supports single and multiple inheritance resolved via C3 Linearization Method Resolution Order ( Cls.__mro__ ) , as well",
+    "file_path": "python/oop/inheritance-polymorphism.md"
+  },
+  {
+    "url": "/quiz/",
+    "track": "quiz",
+    "title": "Practice Quiz Arena",
+    "weight": 9,
+    "word_count": 142,
+    "reading_time_min": 1,
+    "snippet": "\u26a1 Interactive Practice Quiz Arena Test your mastery across DSA , Python , C , C++ , Java , and Go with instant explanations and score tracking! <div",
+    "file_path": "quiz/_index.md"
+  }
+]
