@@ -1,0 +1,108 @@
+[
+  {
+    "id": "dsa-01",
+    "track": "dsa",
+    "difficulty": "easy",
+    "question": "What is the worst-case time complexity of searching for a key in a balanced AVL Tree with N nodes?",
+    "options": ["O(1)", "O(log N)", "O(N)", "O(N log N)"],
+    "answer": 1,
+    "explanation": "An AVL tree maintains a strict height balance factor in {-1, 0, +1}, keeping tree height bounded by O(log N)."
+  },
+  {
+    "id": "dsa-02",
+    "track": "dsa",
+    "difficulty": "medium",
+    "question": "Which data structure powers Kahn's topological sort algorithm on a Directed Acyclic Graph?",
+    "options": ["FIFO Queue tracking vertices with in-degree 0", "Max-Heap of edge weights", "Disjoint Set Union", "Prefix Trie"],
+    "answer": 0,
+    "explanation": "Kahn's algorithm enqueues all vertices with in-degree 0 and decrements neighbor in-degrees as vertices are dequeued."
+  },
+  {
+    "id": "dsa-03",
+    "track": "dsa",
+    "difficulty": "medium",
+    "question": "In Floyd's Tortoise and Hare cycle detection algorithm, what are the step speeds of the slow and fast pointers?",
+    "options": ["1 step and 3 steps", "1 step and 2 steps", "2 steps and 4 steps", "Logarithmic steps"],
+    "answer": 1,
+    "explanation": "Advancing slow by 1 and fast by 2 guarantees that fast closes the distance to slow by 1 node per step inside any cycle."
+  },
+  {
+    "id": "python-01",
+    "track": "python",
+    "difficulty": "easy",
+    "question": "Why is collections.deque preferred over a standard Python list for implementing a FIFO queue?",
+    "options": [
+      "deque uses less syntax",
+      "deque.popleft() runs in O(1) time whereas list.pop(0) shifts elements in O(N) time",
+      "list cannot store heterogeneous types",
+      "deque automatically sorts elements"
+    ],
+    "answer": 1,
+    "explanation": "Removing the first element of a contiguous list requires shifting N-1 pointers left in O(N), while deque unlinks its head block in O(1)."
+  },
+  {
+    "id": "python-02",
+    "track": "python",
+    "difficulty": "medium",
+    "question": "What does the 'yield' keyword do inside a Python function?",
+    "options": [
+      "Terminates the process immediately",
+      "Turns the function into a lazy generator that pauses execution and preserves local state",
+      "Acquires a thread lock",
+      "Compiles the function to C"
+    ],
+    "answer": 1,
+    "explanation": "A function containing yield returns a generator iterator that produces values one at a time on each next() call."
+  },
+  {
+    "id": "c-01",
+    "track": "c",
+    "difficulty": "medium",
+    "question": "How does calloc(n, size) differ from malloc(n * size) in C?",
+    "options": [
+      "calloc allocates memory on the stack",
+      "calloc zero-initializes all allocated bytes and checks for multiplication overflow",
+      "calloc never returns NULL",
+      "calloc does not require free()"
+    ],
+    "answer": 1,
+    "explanation": "calloc checks for integer overflow in n * size and clears all allocated bytes to 0."
+  },
+  {
+    "id": "cpp-01",
+    "track": "cpp",
+    "difficulty": "medium",
+    "question": "Which C++ smart pointer models exclusive resource ownership with zero memory overhead over a raw pointer?",
+    "options": ["std::shared_ptr", "std::unique_ptr", "std::weak_ptr", "std::auto_ptr"],
+    "answer": 1,
+    "explanation": "std::unique_ptr is move-only and has the exact same size and performance as a raw pointer while providing deterministic RAII deletion."
+  },
+  {
+    "id": "java-01",
+    "track": "java",
+    "difficulty": "medium",
+    "question": "In Java 8+, what happens when a HashMap bucket linked list grows beyond TREEIFY_THRESHOLD (8 nodes)?",
+    "options": [
+      "It throws an OutOfMemoryError",
+      "It converts the bucket into a balanced Red-Black Tree with O(log N) worst-case lookup",
+      "It drops old keys",
+      "It switches to open addressing"
+    ],
+    "answer": 1,
+    "explanation": "Treeification mitigates hash-collision DoS attacks by bounding worst-case bucket search to O(log N)."
+  },
+  {
+    "id": "go-01",
+    "track": "go",
+    "difficulty": "easy",
+    "question": "How does a struct type satisfy an interface in Go (Golang)?",
+    "options": [
+      "Using the 'implements' keyword",
+      "Implicitly, by defining all methods declared in the interface",
+      "By extending a base interface class",
+      "By registering with the runtime reflection table"
+    ],
+    "answer": 1,
+    "explanation": "Go uses structural typing: any type that implements all methods of an interface satisfies it implicitly."
+  }
+]
