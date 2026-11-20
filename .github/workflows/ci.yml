@@ -1,0 +1,33 @@
+name: MiniLearn CI & Content Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Audit Curriculum Content & Frontmatter
+        run: python scripts/validate_content.py
+
+      - name: Build Static JSON Search Index
+        run: python scripts/build_search_index.py
+
+      - name: Run Unit & Integration Tests
+        run: python -m unittest discover -s tests -v
